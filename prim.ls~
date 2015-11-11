@@ -1,0 +1,25 @@
+(+ 1 2 (+ 3 4))
+fill-column
+ 	
+
+(message "Он увидел %d %s"
+         (- fill-column 34)
+         (concat "рыжих " "прыгающих "
+                 (substring
+                  "Шустрые, лисицы весело прыгали." 9 14)))
+
+	
+
+(buffer-name)
+
+(buffer-file-name)
+(current-buffer)
+(buffer-size) 	
+
+(point)
+
+(defun on2 ( number )
+"Удвоить число"
+       (* 2 number)
+)
+
